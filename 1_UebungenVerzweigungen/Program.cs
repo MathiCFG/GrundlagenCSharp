@@ -1,4 +1,4 @@
-﻿/*
+/*
 int x = 9, z = 6; double y = 8;
 Console.WriteLine(x-- == y);                    //False
 Console.WriteLine(x==(int)y);                   //True
