@@ -45,3 +45,4 @@ switch (auswahl)
         break;
 
 }
+Console.ReadKey();
