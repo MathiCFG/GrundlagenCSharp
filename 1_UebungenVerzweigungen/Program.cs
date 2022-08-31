@@ -33,7 +33,7 @@ switch (auswahl)
         break;    
     
     case 3:
-        Console.WriteLine("Gebe deine Celsius Zahl ein: ");
+        Console.WriteLine("Gebe deine Kelvin Zahl ein: ");
         double Kelvin = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine(Kelvin+" Kelvin nach Celsius ergibt: "+(Kelvin - 273.15)+" Celsius.");
         break;
