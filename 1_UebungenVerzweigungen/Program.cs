@@ -29,7 +29,7 @@ switch (auswahl)
     case 2:
         Console.WriteLine("Gebe deine Celsius Zahl ein: ");
         double Celsius1 = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine(Celsius1+" C° nach Fahrenheit ergibt: "+(Celsius1 * 1,8 + 32)+" Fahrenheit.");
+        Console.WriteLine(Celsius1+" C° nach Fahrenheit ergibt: "+(Celsius1 * 1.8 + 32)+" Fahrenheit.");
         break;    
     
     case 3:
@@ -42,6 +42,10 @@ switch (auswahl)
         Console.WriteLine("Gebe deine Kelvin Zahl ein: ");
         double Kelvin1 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine(Kelvin1 + " Kelvin nach Fahrenheit ergibt: " + ((Kelvin1 - 273.15) * 1, 8 + 32));
+        break;
+
+    default:
+        Console.WriteLine("ERROR: Die Auswahl beträgt nicht 1-4!");
         break;
 
 }
