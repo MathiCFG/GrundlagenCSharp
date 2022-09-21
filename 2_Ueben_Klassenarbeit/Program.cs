@@ -6,8 +6,9 @@ string breite_str = "Breite";
 
 
 Console.WriteLine("{0,10}{1,10}\n",höhe_str,breite_str);
+String nummern = "";
 
-for(int i =0; i<100; i++)
+for(int i =0; i<10; i++)
 {
-    Console.WriteLine("{0,10}{1,10}", höhe_str, breite_str);
+    Console.WriteLine("{0,10}", i);
 }
